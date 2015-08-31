@@ -1,5 +1,4 @@
 var express = require('express');
-var jade = require('jade');
 var data = require('./lib/data');
 var validate = require('./lib/validate');
 
@@ -38,7 +37,7 @@ app.get('/form/:project/:kind?', function(req, res) {
   if (kind !== 'Entity') { kind = 'Individual'; }
 
   // Render the form
-  return res.render('form.jade', {
+  return res.render('form.hjs', {
     agreement: "" + project + " " + kind + " Contributors License Agreement",
     kind: kind,
     layout: false,

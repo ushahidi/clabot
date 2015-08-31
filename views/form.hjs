@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ushahidi CLAbot</title>
+    <meta content=
+    "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"
+    name="viewport">
+    <link href="/assets/lib/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend><a href="{{ url }}">{{ agreement }}</a></legend>
+                Electronically confirming your agreement
+                with this license allows us to accept your contribution
+                immediately. Alternatively you may sign the contract and send
+                it in by postal mail, email, or fax.
+
+                <div class="control-group">
+                    <label class="control-label" for="name">Full Name</label>
+
+                    <div class="controls">
+                        <input class="span12" id="name" name="name"
+                        placeholder="John Doe" required="" type="text">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="email">E-Mail
+                    Address</label>
+
+                    <div class="controls">
+                        <input class="span12" id="email" name="email"
+                        placeholder="john@doe.com" required="" type="email">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="github">GitHub
+                    Username</label>
+
+                    <div class="controls">
+                        <input class="span12" id="github" name="github"
+                        placeholder="octocat" required="" type="text">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="address">Mailing
+                    Address</label>
+
+                    <div class="controls">
+                        <textarea class="span12" id="address" name="address"
+                        placeholder="Street Nr., City, ZIP-Code" required=""
+                        rows="3" style="resize:none"></textarea>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="country">Country</label>
+
+                    <div class="controls">
+                        <input class="span12" id="country" name="country"
+                        placeholder="United States" required="" type="text">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="tel">Telephone
+                    Number</label>
+
+                    <div class="controls">
+                        <input class="span12" id="tel" name="tel" placeholder=
+                        "1 (555) 555-5555" required="" type="tel">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="fax">Fax Number
+                    (optional)</label>
+
+                    <div class="controls">
+                        <input class="span12" id="fax" name="fax" placeholder=
+                        "1 (444) 444-4444" type="tel">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="signature">Electronic
+                    Signature</label>
+
+                    <div class="controls">
+                        <span class="help-block">Type "I AGREE" to accept
+                        the&nbsp;<a href=
+                        "{{ url }}">{{ agreement }}</a>
+                        above.</span><input class="span12" id="signature" name=
+                        "signature" required="" type="text">
+                    </div>
+                </div>
+                <input id="project" name="project" type="hidden" value={{ project }}>
+                <input id="kind" name="kind" type="hidden" value={{ kind }}>
+
+                <div class="form-actions">
+                    <button class="btn btn-primary span12" disabled type=
+                    "submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="/assets/lib/nod.min.js"></script>
+    <script src="/assets/site.js"></script>
+</body>
+</html>

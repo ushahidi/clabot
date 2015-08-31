@@ -12,12 +12,12 @@
   },
   "dependencies": {
     "clabot": "0.1.0",
-    "forms": "~1.1",
     "connect-assets": "~5.0",
-    "jade": "~1.11",
     "cradle": "~0.6.4",
-    "lodash": "~3.10",
     "express": "~3.4",
-    "express-form": "~0.12"
+    "express-form": "~0.12",
+    "forms": "~1.1",
+    "hjs": "0.0.6",
+    "lodash": "~3.10"
   }
 }
