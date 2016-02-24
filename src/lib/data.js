@@ -13,7 +13,6 @@ exports.getContractors = function(callback) {
         console.log('Error');
         return callback([]);
       } else {
-        console.log(rows);
         return callback(_.pluck(rows,'githubusername'));
       }
     });
