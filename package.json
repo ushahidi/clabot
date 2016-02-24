@@ -17,6 +17,7 @@
     "express": "~3.4",
     "express-form": "~0.12",
     "forms": "~1.1",
+    "google-spreadsheet": "^1.1.4",
     "hjs": "0.0.6",
     "lodash": "~3.10"
   }

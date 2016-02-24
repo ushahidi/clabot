@@ -7,7 +7,7 @@ var app = require('clabot').createApp({
   getContractors: data.getContractors,
   token: process.env.GITHUB_TOKEN,
   templateData: {
-    link: '$http://your-cla-webform.com',
+    link: process.env.CLA_LINK,
     maintainer: process.env.MAINTAINER
   },
   secrets: {
@@ -25,28 +25,9 @@ app.use(require('connect-assets')());
 
 app.use(express.compress());
 
-app.get('/form/:project/:kind?', function(req, res) {
-  var kind, project;
-  project = req.params.project;
-  // Makes no sense, yet. Extensible in the future.
-  if (project !== 'platform') { project = 'platform'; }
-
-  // Format kind as Uppercasefirstchar
-  kind = req.params.kind;
-  kind = (kind != null) ? kind.charAt(0).toUpperCase() + kind.slice(1).toLowerCase() : '';
-  if (kind !== 'Entity') { kind = 'Individual'; }
-
-  // Render the form
-  return res.render('form.hjs', {
-    agreement: "" + project + " " + kind + " Contributors License Agreement",
-    kind: kind,
-    layout: false,
-    project: project,
-    url: req.clabotOptions.templateData.link
-  });
+app.get('/', function (req, res) {
+  return res.redirect(req.clabotOptions.templateData.link);
 });
-
-app.post('/form', validate, data.save);
 
 port = process.env.PORT || 1337;
 
