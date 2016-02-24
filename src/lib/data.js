@@ -3,10 +3,7 @@ var _ = require('lodash');
 var GoogleSpreadsheet = require("google-spreadsheet");
 var signatures = new GoogleSpreadsheet(process.env.SHEET_ID);
 
-var creds = {
-  client_email: process.env.SHEET_EMAIL,
-  private_key: process.env.SHEET_PRIVATE_KEY
-}
+var creds = require('../../'+ process.env.SHEETS_CONFIG);
 
 exports.getContractors = function(callback) {
 
@@ -16,7 +13,8 @@ exports.getContractors = function(callback) {
         console.log('Error');
         return callback([]);
       } else {
-        return callback(_.pluck(rows,'Github User Name'));
+        console.log(rows);
+        return callback(_.pluck(rows,'githubusername'));
       }
     });
   });

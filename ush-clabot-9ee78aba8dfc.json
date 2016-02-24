@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ushahidi-clabot",
+  "private_key_id": "9ee78aba8dfc4b830fdc039a737a7da83e6397e0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCygfPHWFxmF/8I\n3ncxxVzHg3FDkVyrJm6/TdWygAbrwUNNnCkm/6adW47iYCpBG2PKzqEu6eyYV8ho\n0FN2G7wjjCTdlCMIY9ULmlLACH79n56NpcyDs8OcAi3MaCyFXQd4wEREeJ+IhTZX\nZ3l0U/Bk2oAplRIRwgR8U81d3KN684J3IUWHizIddVdEfJG3qnFUFYXgpI7VXHem\nlkIINAZXY4yy5M3B+wklOm1T14W9tg6ZnRR0YFEodkUi+IzIto7fePte2AZVy1tX\nW8rO25FyJxZQS0NTWv5jA866rTLMzeY7j1Cq3SKITkXYzCcXE490QKduxjGCDdM8\nTmBcnuHHAgMBAAECggEBAJENNBB6Zqq3OQ/15hlVbKzazEDBb/HLSxa8ordnfTg5\nVP1Ntcrw1mzrp1GgHvXE0fRMr4E1qIGqYzl4fzlsFBc2nAZJh6YbqVTCVBejT727\n5NTpMySaAItW4exFglfkXlvqsA6LjecbiCrB9Flok+EABEDF12cCpy530ltBHL6c\nnbsuZJKwmIOoCTmGBDdqZ05IlHv/mkQU7nZoJubU5ZDHofWslVtkoBUEJqOMyV3K\nlP4zih3hsdr6NkvgyzD+U7D0eNz8q66at25Vh98Uqx2LB+qgIpRIVqGaCWZR3Gkq\nIeBFoKuO/b8VJzWOGsoft3y8uOM3eLuIwG7gV2wKdrECgYEA+Iglsx9piQ2vfuLu\noJrxAq6HssIKySFjeGQcokv5vA/IbZTo0MEWEnrlvD/TKQJ0YlUfMQKHo4iw+bbv\nbiAobikrBXmbvker2aKcvi54bmpD4wzIV0A+yPJHxDXZRdE/etj1KmPEtjRf117I\n3ZkqNwo5N2JIgn+kB9OqAum8iasCgYEAt98jQsuOlasZTYEt9qmSJQvBK8Utebt5\nxLirnK7MKAtz/1XoedXwEhFdvYykDSav3kcCFWTPcK0CXj8S69QhJ++YaiAWPAWE\nL/0x7fuYdPGSbt/A0DDwX20itRgVgs6WbsvaL5Qi7OFc79pVC6HgTNiSwqVCrk/2\n9iVn0A8bhFUCgYEA8f9v5hiiJIek6MKDZPM51kinbVIwOmQ+fQ3OK+IazBn6KWmj\nwREiMuBkLodfT0FKni0QcCJsfLouyRhtzyeU9p8zeuNM2VzkYshKI40QS0NB0yWx\nNfQirnvrkYx1gdwcGbyEDMCU3G3nHMj4gX4QcwOLbvhObnNm/xAFLUz2/n0CgYBX\n6fmrCzbOevNrKlO2t1coHVmsOufGZ4wOMhnjnXQBxZAdyo6QCmlxyhne8mrR2uiF\nx7/ISN4iSqZyN4gtd8yukpF2VIctBZoxc8c2uXAoogRYvOUs5elYRw8sNSq701j7\n+r4Et7iHOC2+hM7a8/gR5g8tv+SFAbjb8gCT61VFzQKBgQDKlt0kXr7zExA4zliG\nnkQBJKWWCGeHP/nOCBSy0PyrkYfj+6pkS1P6pUOSdxsDnLGs0M6Do4nkhuZErpOu\nl/9W8hGwQyGMt4RPB3/ilrrANMZyLoO6jOYvFhwMXS6ICe0xmE0G4nphHZiGaEhT\n/XH9tBorrDNI/zR6f8FsLaFR5g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ushahidi-clabot@appspot.gserviceaccount.com",
+  "client_id": "114367943556030114853",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ushahidi-clabot%40appspot.gserviceaccount.com"
+}
